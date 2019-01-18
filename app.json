@@ -1,0 +1,52 @@
+{
+  "id": "nl.totalimmersion.timeline",
+  "version": "1.0.0",
+  "compatibility": ">=2.0.0",
+  "sdk": 2,
+  "name": {
+    "en": "Timeline"
+  },
+  "description": {
+    "en": "Adds notifications to the timeline."
+  },
+  "category": [
+    "tools"
+  ],
+  "permissions": [],
+  "images": {
+    "large": "/assets/images/large.png",
+    "small": "/assets/images/small.png"
+  },
+  "author": {
+    "name": "Immersion Apps"
+  },
+  "contributors": {
+    "developers": [
+        {
+            "name": "Lennart Kuijs",
+            "email": "info@totalimmersion.nl"
+        }
+    ]
+  },
+  "flow": {
+    "actions": [
+      {
+        "id": "post_on_timeline",
+        "title": {
+          "en": "Post a message on the timeline",
+          "nl": "Plaats een bericht op de tijdlijn"
+        },
+        "args": [
+          {
+            "name": "message",
+            "type": "text",
+            "placeholder": {
+              "en": "Message",
+              "nl": "Bericht"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
